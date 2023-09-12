@@ -1,0 +1,156 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  cursor: pointer;
+}
+
+#navbar {
+  background-color: #333;
+  overflow: auto;
+  text-align: left;
+}
+
+.nav-content {
+  display: block;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#navbar a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: left;
+}
+
+#navbar a:hover {
+  background-color: 555;
+  color: white;
+}
+
+#hero {
+  text-align: center;
+  padding: 100px 0;
+  background-color: #e9e9e9;
+}
+
+#hero h1 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+#hero p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+#hero button {
+  background-color: #333;
+  color: #fff;
+  font-size: 1.2em;
+}
+
+#hero button:hover {
+  background-color: #555;
+  color: #fff;
+}
+
+#cards {
+  padding: 50px 0;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  display: inline-block;
+  width: 30%;
+  margin: 0 1.5%;
+  background-color: white;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 5);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  max-height: 200px;
+  display: block;
+  object-fit: cover;
+}
+
+.card h2,
+.card p {
+  padding: 10px;
+  text-align: left;
+}
+
+#about {
+  padding: 50px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-img,
+.about-content {
+  display: inline-block;
+  width: 48%;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+.about-img img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.about-content {
+  padding: 0 2%;
+}
+
+#testimonials {
+  padding: 50px 0;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+#testimonials {
+  padding: 50px 0;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.testimonial-img img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.testimonial-content {
+  padding: 20px 0;
+  font-style: italic;
+}
+
+#footer {
+  padding: 20px 0;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
